@@ -72,14 +72,6 @@ while true; do
 done
 ```
 
-In this updated version:
-
-1. The port scanning function using nmap has been removed.
-2. The network throughput testing function using iperf3 has been removed.
-3. The menu options have been adjusted accordingly.
-
-The remaining functions (ping, traceroute, display network interfaces, and static IP configuration) should work on both Linux and macOS without any additional dependencies.
-
 Please note that the static IP configuration function is still marked as "Linux only" since it uses the `ip` command, which is specific to Linux. Configuring a static IP on macOS would require a different approach.
 
 This modified script should be more compatible and run without issues on both Linux and macOS systems.
